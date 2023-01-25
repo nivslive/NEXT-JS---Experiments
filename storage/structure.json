@@ -1,0 +1,50 @@
+[
+  {
+    "type": "portfolio",
+    "reference": [
+      {
+        "type": "banner",
+        "variation": 1,
+        "data": {
+          "img": "red",
+          "title": "title nois",
+          "description": "1px solid blue",
+          "button": {
+            "title": " title",
+            "icon": " test",
+            "border": " tal",
+            "url": "blau"
+          }
+        }
+      },
+      {
+        "type": "about",
+        "variation": 1,
+        "data": {
+          "color": "red",
+          "border": "1px solid blue",
+          "title": " nois"
+        }
+      },
+      {
+        "type": "footer",
+        "variation": 1,
+        "data": {
+          "color": "red",
+          "border": "1px solid blue",
+          "title": "title nois",
+          "social_medias": [
+            {
+              "title": "facebook",
+              "url": "facebook.com"
+            },
+            {
+              "title": "linkedin",
+              "url": "linkedin.com"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]
