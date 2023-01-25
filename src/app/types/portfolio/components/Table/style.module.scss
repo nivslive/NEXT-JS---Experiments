@@ -1,0 +1,25 @@
+.tableContainer {
+  background: var(--secundary-color);
+  color: var(--oposite-secundary-color);
+  padding: 20px;
+  border-radius: 20px;
+  margin: 20px;
+
+  .table {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background: var(--secundary-color);
+    border-radius: 10px;
+    padding: 20px;
+    thead {
+      padding: 20px;
+    }
+      &table, th, td {
+          border-bottom: 1px solid black;
+          padding: 10px;
+          margin: 20px 0;
+          border-collapse: collapse;
+        }
+  }  
+}

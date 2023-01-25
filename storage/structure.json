@@ -1,4 +1,5 @@
 [
+  
   {
     "type": "portfolio",
     "reference": [
@@ -20,6 +21,8 @@
       {
         "type": "about",
         "variation": 1,
+        "title": "Sobre mim:",
+        "description": "Olá! Meu nome é Nivan, mais conhecido como Nivs. Sou Desenvolvedor há 3 anos, com foco especialidade em Javascript/Typescript.",
         "data": {
           "color": "red",
           "border": "1px solid blue",
@@ -27,7 +30,115 @@
         }
       },
       {
+        "type": "table",
+        "variation": 1,
+        "title": "Linguagens",
+        "data": [
+          {
+              "Linguagem": "HTML",
+              "Expertise": "Senior",
+              "Frameworks Usados": "Pug",
+              "Anos de Experiencia": "3",
+              "Uso no trabalho atualmente": "true",
+              "Estudo diariamente (ou quase)": "true"
+          }, 
+          {
+              "Linguagem": "CSS",
+              "Expertise": "Pleno",
+              "Frameworks Usados": "SASS, Bootstrap",
+              "Anos de Experiencia": "3",
+              "Uso no trabalho atualmente": "true",
+              "Estudo diariamente (ou quase)": "true"
+          },
+          {
+            "Linguagem": "JAVASCRIPT",
+            "Expertise": "Pleno",
+            "Frameworks Usados": "Vue, Angular, React",
+            "Anos de Experiencia": "2",
+            "Uso no trabalho atualmente": "true",
+            "Estudo diariamente (ou quase)": "true"
+          },
+          {
+              "Linguagem": "TYPESCRIPT",
+              "Expertise": "Pleno",
+              "Frameworks Usados": "Vue, Angular, React",
+              "Anos de Experiencia": "2",
+              "Uso no trabalho atualmente": "false",
+              "Estudo diariamente (ou quase)": "true"
+          },
+          {
+              "Linguagem": "PHP",
+              "Expertise": "Pleno",
+              "Frameworks Usados": "Laravel, Doctrine",
+              "Anos de Experiencia": "3",
+              "Uso no trabalho atualmente": "true",
+              "Estudo diariamente (ou quase)": "true"
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "variation": 1,
+        "title": "Tecnologias (Bibliotecas, ou frameworks)",
+        "data": [
+          {
+              "Linguagem": "Laravel",
+              "Expertise": "Pleno",
+              "Anos de Experiencia": "3",
+              "Uso no trabalho atualmente": "true",
+              "Estudo diariamente (ou quase)": "true"
+          }, 
+          {
+              "Linguagem": "React",
+              "Expertise": "Pleno",
+              "Anos de Experiencia": "3",
+              "Uso no trabalho atualmente": "false",
+              "Estudo diariamente (ou quase)": "true"
+          },
+          {
+            "Linguagem": "Next (React)",
+            "Expertise": "Junior",
+            "Anos de Experiencia": "1",
+            "Uso no trabalho atualmente": "false",
+            "Estudo diariamente (ou quase)": "true"
+          },
+          {
+            "Linguagem": "Nuxt (Vue.js)",
+            "Expertise": "Junior",
+            "Anos de Experiencia": "1",
+            "Uso no trabalho atualmente": "true",
+            "Estudo diariamente (ou quase)": "false"
+          },
+          {
+            "Linguagem": "Jquery",
+            "Expertise": "Junior",
+            "Anos de Experiencia": "3",
+            "Uso no trabalho atualmente": "true",
+            "Estudo diariamente (ou quase)": "false"
+          }
+        ]
+      },
+      {
         "type": "footer",
+        "variation": 1,
+        "data": {
+          "color": "red",
+          "border": "1px solid blue",
+          "title": "title nois",
+          "social_medias": [
+            {
+              "title": "facebook",
+              "url": "facebook.com"
+            },
+            {
+              "title": "linkedin",
+              "url": "linkedin.com"
+            }
+          ]
+        }
+      },
+      {
+        "type": "lisp",
         "variation": 1,
         "data": {
           "color": "red",

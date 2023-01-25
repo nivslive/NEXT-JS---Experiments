@@ -1,4 +1,5 @@
 .main {
+  background: var(--principal-color);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -32,6 +33,7 @@
   background-color: rgba(var(--callout-rgb), 0.5);
   border: 1px solid rgba(var(--callout-border-rgb), 0.3);
   border-radius: var(--border-radius);
+  color: var(--oposite-principal-color);
 }
 
 .code {

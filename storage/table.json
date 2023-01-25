@@ -1,28 +1,26 @@
 [
     {
-        "taligado": "oi",
-        "title": "oi",
-        "seila": "ok"
+        "Linguagem": "HTML",
+        "Expertise": "Senior",
+        "Frameworks Usados": "Pug",
+        "Anos de Experiencia": "3"
     },
     {
-        "title": "oi",
-        "seila": "ok"
+        "Linguagem": "TYPESCRIPT",
+        "Expertise": "Pleno",
+        "Frameworks Usados": "Vue.ts, Angular, React",
+        "Anos de Experiencia": "2"
     },
     {
-        "title": "oi",
-        "seila": "ok"
+        "Linguagem": "PHP",
+        "Expertise": "Pleno",
+        "Frameworks Usados": "Laravel, Doctrine",
+        "Anos de Experiencia": "3"
     },
     {
-        "title": "oi",
-        "seila": "ok"
-    },
-    {
-        "title": "oi",
-        "seila": "ok",
-        "vaitomarnocu": "ok"
-    },
-    {
-        "title": "oi",
-        "seila": "ok"
+        "Linguagem": "CSS",
+        "Expertise": "Pleno",
+        "Frameworks Usados": "SASS, Bootstrap",
+        "Anos de Experiencia": "3"
     }
 ]

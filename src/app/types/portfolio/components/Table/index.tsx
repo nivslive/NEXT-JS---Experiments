@@ -1,7 +1,10 @@
 import React, { FC } from "react";
 import styles from './style.module.scss';
-export const Table: FC = () => {
-    
+
+export const Table: FC = (props: any): any => {
+    //const table = require('../../../../storage/table.json');
+    const table = props.data.data;
+    console.log(props.data.title)
     const filtered_table = (data: any) => {
         let allKeys: any = [];
         data.forEach((element: any) => {
@@ -13,13 +16,13 @@ export const Table: FC = () => {
         return Object.keys(allKeys)
     }
     
-    const table = require('../../../../storage/table.json');
     const table_keys = filtered_table(table);
-    console.log(table_keys);
+
     return (
-        <div> 
+        <div className={styles.tableContainer}> 
+            <h1> { props.data.title }</h1>
             <table className={styles.table}>
-                <thead>
+                <thead className="p-3">
                     <tr>
                         { table_keys.map(keys => <th> {keys}</th>)}
                     </tr>
