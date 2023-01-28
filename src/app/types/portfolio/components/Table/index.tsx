@@ -44,10 +44,10 @@ export const Table: FC = (props: any): any => {
                     </tr>
                 </thead>
                 <tbody>
-                    {table.map((column: any) => {
+                    {table.map((column: any, key: any) => {
                         return (
-                            <tr>
-                                { table_keys.map(keys => <td> {column[keys]}</td>)} 
+                            <tr key={key}>
+                                { table_keys.map((keys, k) => <td key={k}> {column[keys]}</td>)} 
                             </tr>           
                                 )
                             }            
