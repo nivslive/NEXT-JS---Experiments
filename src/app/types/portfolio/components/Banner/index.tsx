@@ -3,7 +3,33 @@ import Link from "next/link";
 import React, { FC } from "react";
 import styles from './style.module.scss';
 
-export const Banner: FC = (props: any): any => {
+/**
+ * 
+ * {
+        "type": "banner",
+        "variation": 1,
+        "data": {
+          "img": "./nivs.jpg",
+          "title": "Olá! Seja bem vindo ao meu Portfólio. 😃/",
+          "description": "1px solid blue",
+          "button": {
+            "title": "Github",
+            "icon": "test",
+            "url": "blau"
+          }
+        }
+      },
+ */
+
+interface Data {
+    variation?: any;
+    data?: any;
+    img: any;
+}
+type Props = {
+    data: Data
+}
+export const Banner: any = (props: Props): any => {
     console.log(props);
     const variation = () => {
         switch(props.data.variation) {
@@ -31,7 +57,7 @@ export const Banner: FC = (props: any): any => {
                     </div>
                 </>
             default: <>
-                    <div style={{backgroundImage: `url(${props.image})`}}> 
+                    <div style={{backgroundImage: `url(${props.data.img})`}}> 
                     </div>
                 </>
         }

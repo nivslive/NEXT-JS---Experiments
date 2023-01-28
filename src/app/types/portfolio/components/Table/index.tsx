@@ -1,7 +1,15 @@
 import { Progress } from "@/app/components/Mini/Progress";
 import React, { FC } from "react";
 import styles from './style.module.scss';
-export const Table: FC = (props: any): any => {
+interface Data {
+    variation?: any;
+    data?: any;
+    title: any;
+}
+type Props = {
+    data: Data
+}
+export const Table: any = (props: Props): any => {
     //const table = require('../../../../storage/table.json');
     const component_number = (data: string) => {
         ( 
