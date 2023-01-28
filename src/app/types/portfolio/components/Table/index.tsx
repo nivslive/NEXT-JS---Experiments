@@ -40,7 +40,7 @@ export const Table: FC = (props: any): any => {
             <table className={styles.table}>
                 <thead className="p-3">
                     <tr>
-                        { table_keys.map(keys => <th> {keys}</th>)}
+                        { table_keys.map((keys, k) => <th key={k}> {keys}</th>)}
                     </tr>
                 </thead>
                 <tbody>
