@@ -1,15 +1,17 @@
 .tableContainer {
-  background: var(--secundary-color);
-  color: var(--oposite-secundary-color);
+  
+  background: var(--primary-color);
+  color: var(--oposite-primary-color);
   padding: 20px;
   border-radius: 20px;
   margin: 20px;
-
+  border: 1px solid var(--contrast-third-color);
+  box-shadow: 1px 15px 20px var(--opaque-third-color);
   .table {
     width: 100%;
     margin: auto;
     text-align: center;
-    background: var(--secundary-color);
+    background: var(--oposite-third-color);
     border-radius: 10px;
     padding: 20px;
     thead {

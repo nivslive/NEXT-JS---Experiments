@@ -5,7 +5,7 @@ import { ReactNode } from 'react';
 import Portfolio from './types/portfolio/default';
 
 export default function Home(): ReactNode {
-const structure = require('../../storage/structure.json')[0];
+const structure = require('../../storage/portfolio/structure.json')[0];
 
   return (
     <div>

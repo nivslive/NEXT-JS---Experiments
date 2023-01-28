@@ -1,8 +1,24 @@
+import { Progress } from "@/app/components/Mini/Progress";
 import React, { FC } from "react";
 import styles from './style.module.scss';
-
 export const Table: FC = (props: any): any => {
     //const table = require('../../../../storage/table.json');
+    const component_number = (data: string) => {
+        ( 
+           data === "1" ||
+           data === "2" ||
+           data === "3" ||
+           data === "4" ||
+           data === "5" ||
+           data === "6" ||
+           data === "7" ||
+           data === "8" ||
+           data === "9"
+        ) 
+          ? <td>  <Progress number={data} /> </td>  
+          : <td> {data} </td>;
+    }
+
     const table = props.data.data;
     console.log(props.data.title)
     const filtered_table = (data: any) => {
@@ -32,12 +48,13 @@ export const Table: FC = (props: any): any => {
                         return (
                             <tr>
                                 { table_keys.map(keys => <td> {column[keys]}</td>)} 
-                            </tr>
+                            </tr>           
+                                )
+                            }            
                         )
-                    } )}
+                    }  
                 </tbody>
-
-
+          
             </table>
         </div>
     );

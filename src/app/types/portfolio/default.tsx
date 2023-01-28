@@ -7,8 +7,7 @@ import { Footer } from './components/Footer';
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Portfolio(): any {
-const structure = require('../../../../storage/structure.json')[0];
-
+const structure = require('../../../../storage/portfolio/structure.json')[0];
   return (
     <main className={styles.main}>
       <div className={styles.description}>
@@ -50,7 +49,7 @@ const structure = require('../../../../storage/structure.json')[0];
                 case 'about':
                     return <About data={comp} />;
                 case 'banner':
-                    return <Banner />;
+                    return <Banner data={comp}/>;
                 case 'table':
                     return <Table data={comp}/>;
                 case 'footer':
@@ -74,7 +73,7 @@ const structure = require('../../../../storage/structure.json')[0];
         />
       </div>*/}
 
-      <div className={styles.grid}>
+     {/* <div className={styles.grid}>
         <a
           href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           className={styles.card}
@@ -114,7 +113,7 @@ const structure = require('../../../../storage/structure.json')[0];
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
-      </div>
+    </div>*/}
     </main>
   )
 }
