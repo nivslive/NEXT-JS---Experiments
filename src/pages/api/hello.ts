@@ -9,5 +9,5 @@ export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>
 ) {
-  res.status(200).json(require('../../../storage/structure.json'))
+  res.status(200).json(require('../../../storage/portfolio/structure.json'))
 }
